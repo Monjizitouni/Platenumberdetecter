@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bttn">
+
+    <Button
+        android:id="@+id/setlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set location"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <Button
+        android:id="@+id/takephoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="take photo"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="199dp" />
+</android.support.constraint.ConstraintLayout>
